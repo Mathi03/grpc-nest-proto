@@ -25,6 +25,14 @@ message CreateProductResponse {
 
 // FindOne
 
+message FindOneData {
+  int32 id = 1;
+  string name = 2;
+  string sku = 3;
+  int32 stock = 4;
+  double price = 5;
+}
+
 message FindOneRequest {
   int32 id = 1;
 }
