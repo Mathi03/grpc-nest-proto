@@ -27,7 +27,7 @@ message LoginRequest {
   string password = 2;
 }
 
-message LoginReponse {
+message LoginResponse {
   int32 status = 1;
   repeated string error = 1;
   string token = 3;
